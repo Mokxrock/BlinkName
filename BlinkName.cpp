@@ -14,10 +14,10 @@ void setup()
 void loop()
 {
     
-    // __    HIGH FOR 5s 2s
-    // .     HIGH FOR 1s 500
-    // Break between signals for the same letter - 1s 500
-    // Break in between letters - LOW FOR 8s 4s
+    // __    HIGH FOR 2s
+    // .     HIGH FOR 500
+    // Break between signals for the same letter - 500
+    // Break in between letters - LOW FOR 4s
     
     // M _ _
     digitalWrite(MY_LED, HIGH);
