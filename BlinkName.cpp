@@ -1,12 +1,11 @@
-const int MY_LED = D7;
+const int MY_LED = D7; // Variable for In-built LED D7
 
 
 // The setup() method is called once when the device boots.
 void setup()
 {
-	// In order to set a pin, you must tell Device OS that the pin is
-	// an OUTPUT pin. This is often done from setup() since you only need
-	// to do it once.
+	
+	// Set D7 as an output Pin 
 	pinMode(MY_LED, OUTPUT);
 }
 
@@ -14,8 +13,8 @@ void setup()
 void loop()
 {
     
-    // __    HIGH FOR 2s
-    // .     HIGH FOR 500
+    // __ (Long Blink )   HIGH FOR 2s 
+    // .  (Short Blink )  HIGH FOR 500
     // Break between signals for the same letter - 500
     // Break in between letters - LOW FOR 4s
     
